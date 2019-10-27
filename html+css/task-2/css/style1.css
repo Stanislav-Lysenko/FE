@@ -1,0 +1,19 @@
+table {
+	border: 1px solid #000;
+}
+
+th, td {
+	border: 1px solid #000;
+}
+
+td[colspan] {
+	text-align: center;
+}
+
+colgroup col:first-child {
+	width: 110px;
+}
+
+colgroup col:last-child {
+	width: 60px;
+}
