@@ -1,0 +1,22 @@
+@font-face {
+	font-family: 'LHFHenderson';
+	src: url('../fonts/LHFHenderson.eot');
+	src: local('☞LHF Henderson'), local('LHFHenderson'),
+			url('LHFHenderson.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/LHFHenderson.woff2') format('woff2'),
+			url('../fonts/LHFHenderson.woff') format('woff'),
+			url('../fonts/LHFHenderson.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Libre Franklin';
+	src: local('Libre Franklin Regular'), local('Libre-Franklin-Regular'),
+			url('../fonts/LibreFranklin-Regular.woff2') format('woff2'),
+			url('../fonts/LibreFranklin-Regular.woff') format('woff'),
+			url('../fonts/LibreFranklin-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
