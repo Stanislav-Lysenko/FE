@@ -1,0 +1,32 @@
+
+.btn {
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	font-family: 'Bitter', serif;
+	font-size: 2em;
+	font-weight: bold;
+
+	text-transform: uppercase;
+	border: 1px solid #00e0d0;
+}
+
+.btn_transparent {
+	color: #00e0d0;
+}
+
+.btn:hover {
+	color: #ffffff;
+}
+
+.btn_filled {
+	background-color: #00e0d0;
+	color: #ffffff;
+}
+
+
+
+.btn_filled:hover {
+	background-color: #ffffff;
+	color: #00e0d0;
+}
+
