@@ -1,0 +1,77 @@
+@import url("reset.css");
+@import url("normalize.css");
+
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	position: relative;
+	background-color: #e8e0d9;
+}
+
+body::before {
+	content: "";
+	display: block;
+	background-color: #FF9B40;
+	height: 7.692rem;
+}
+
+body > header {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	max-width: 96rem;
+	padding: 1rem 0;
+	font-size: 1.3em;
+	margin: -7.692rem auto 0;
+	height: 7.692rem;
+}
+
+h1 {
+	font-family: 'Yeon Sung', cursive;;
+}
+
+
+nav {
+	position: absolute;
+	top: 8.192rem;
+	right: 0;
+	background-color: #FF7A00;
+	border-left: 0.5rem solid #e8e0d9;
+	width: 25rem;
+	overflow: hidden;
+}
+
+article {
+	max-width: 96rem;
+	margin: 0.5rem auto;
+	padding: 2rem 25.5rem 2rem 2rem;
+	background-color: #ffffff;
+	font-size: 1.3em;
+}
+
+article header,
+article section {
+	font-size: 2em;
+	padding-right: 2rem;
+}
+
+article p {
+	font-size: 0.7em;
+	line-height: 1.6em;
+	text-align: justify;
+	margin: 1.6em 0;
+}
+
+article h2 {
+	text-align: center;
+	font-weight: bold;
+	line-height: 2em;
+	color: #FF9B40;
+}
