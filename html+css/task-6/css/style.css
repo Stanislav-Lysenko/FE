@@ -78,10 +78,15 @@ body {
 }
 
 .product__like-icon {
+	cursor: pointer;
 	color: #a8a8a8;
 }
 
 .product__like-icon_checked {
+	color: #000000;
+}
+
+.product__like-icon:hover {
 	color: #000000;
 }
 
