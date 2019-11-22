@@ -1,0 +1,20 @@
+@import url("normalize.css");
+
+
+html, body {
+	height: 100%;
+}
+body {
+	background-color: #000000;
+}
+
+.wrapper {
+	box-sizing: border-box;
+	width: 768px;
+	height: 564px;
+	margin: 0 auto;
+	background: url("../images/back-big.png") no-repeat center center;
+	background-size: cover;
+	padding: 54px 75px 0 75px;
+
+}
