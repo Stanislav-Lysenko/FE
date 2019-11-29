@@ -1,0 +1,74 @@
+.gloves {
+	background: url("../images/gloves.png") no-repeat;
+}
+
+.sword {
+	background: url("../images/sword.png") no-repeat;
+}
+
+.gold-ring {
+	background: url("../images/gold-ring.png") no-repeat;
+}
+
+.shoes {
+	background: url("../images/shoes.png") no-repeat;
+}
+
+.armor {
+	background: url("../images/armor.png") no-repeat;
+}
+
+.decoration {
+	background: url("../images/decoration.png") no-repeat;
+}
+
+.btn-f9 {
+	background: url("../images/btn-f9.png") no-repeat;
+}
+
+.life {
+	background: url("../images/life.png") no-repeat center center;
+}
+
+.runa::before {
+	width: 100%;
+	height: 100%;
+	background: url("../images/runa.png") no-repeat center center;
+}
+
+.blue-book::before {
+	width: 100%;
+	height: 200%;
+	background: url("../images/blue-book.png") no-repeat center center;
+}
+
+.runa-branch::before {
+	width: 100%;
+	height: 100%;
+	background: url("../images/runa-branch.png") no-repeat center center;
+}
+
+.runa-cristall::before {
+	width: 100%;
+	height: 100%;
+	background: url("../images/runa-cristall.png") no-repeat center center;
+}
+
+.runa-fire::before {
+	width: 100%;
+	height: 100%;
+	background: url("../images/runa-fire.png") no-repeat center center;
+}
+
+
+.runa-time::before {
+	width: 100%;
+	height: 100%;
+	background: url("../images/runa-time.png") no-repeat center center;
+}
+
+.cube::before {
+	width: 200%;
+	height: 200%;
+	background: url("../images/cube.png") no-repeat center center;
+}
