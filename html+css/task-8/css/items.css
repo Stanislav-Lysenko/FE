@@ -24,6 +24,7 @@
 
 .btn-f9 {
 	background: url("../images/btn-f9.png") no-repeat;
+	background-size: cover;
 }
 
 .life {
