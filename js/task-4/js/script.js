@@ -128,9 +128,6 @@ class GuessNumberForMachine {
 	}
 
 	restart(){
-		// this.nodes.low.disabled = false;
-		// this.nodes.up.disabled = false;
-		// this.nodes.start.disabled = false;
 		this.prepareStart();
 		this.nodes.userNumber.value = '';
 		this.nodes.resultContainer.textContent = '';
@@ -139,6 +136,7 @@ class GuessNumberForMachine {
 	checkAnswer(){
 		if (this._answer == this.userNumber) {
 			this.endGame('win');
+			this.disAbleLowAndUpBtns();
 			return;
 		}
 
