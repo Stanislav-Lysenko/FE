@@ -1,0 +1,24 @@
+@import url("../fonts/icomoon/style.css");
+
+@import url("reset.css");
+@import url("normalize.css");
+
+@import url("layout.css");
+@import url("base.css");
+
+@import url("fonts.css");
+
+@import url("button.css");
+@import url("slider.css");
+
+@import url("header.css");
+@import url("nav.css");
+@import url("humburger.css");
+@import url("intro.css");
+@import url("features.css");
+@import url("team.css");
+@import url("contacts.css");
+@import url("slider.css");
+@import url("footer.css");
+
+

@@ -1,0 +1,155 @@
+@media screen and (min-width: 769px){
+.nav {
+	font-size: 1.6rem;
+	font-family: "Roboto", Arial, sans-serif;
+}
+
+.nav__link {
+	color: #ffffff;
+}
+
+.nav__link:hover {
+	color: #00e0d0;
+}
+
+.nav__list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav__item {
+	position: relative;
+	margin-left: 3rem;
+	padding: .6rem 3rem;
+	text-align: center;
+}
+
+.nav__item > ul {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 2.8rem;
+	z-index: 10;
+	transform: scaleY(0);
+	transition: all .3s linear;
+	transform-origin: 0 0;
+}
+
+.nav__item:hover > ul {
+	transform: scaleY(1);
+}
+
+.nav__item li {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	background-color: #ffffff;
+	padding: 0.5rem 0;
+	margin: 0 0.2rem 0.2rem 0.2rem;
+}
+
+.nav__item li a {
+	display: block;
+	overflow: hidden;
+	padding: 0.2rem;
+	color: #00e0d0;
+
+}
+
+.nav__item ul ul {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	transform: scaleY(0);
+	transition: all .3s linear;
+	transform-origin: 0 0;
+}
+
+.nav__item:nth-last-child(n+2) ul ul {
+	left: 100%;
+}
+
+.nav__item:last-child ul ul {
+	right: 102%;
+}
+
+.nav__item li:hover {
+	background-color: #f1f1ee;
+}
+
+.nav__item li:hover > ul {
+	transform: scaleY(1);
+}
+
+}
+
+/* nav__humburger*/
+.nav__humburger {
+	position: absolute;
+	right: -1em;
+}
+
+.nav__humburger-toggle {
+	display: block;
+	position: absolute;
+	right: 1rem;
+	top: -4.5rem;
+}
+
+
+/* mobile nav*/
+@media screen and (max-width: 768px) {
+
+	.nav {
+		width: 100%;
+		position: relative;
+		font-size: 1.6rem;
+		font-family: "Roboto", Arial, sans-serif;
+	}
+
+	.nav__list {
+		background-color: #120e32;;
+	}
+
+	.nav__item {
+		position: relative;
+		display: block;
+	}
+
+	.nav__list a {
+		display: block;
+		padding: 1em 0;
+		text-align: center;
+		color: #ffffff;
+		border-bottom: 1px dotted #4f3c73;
+	}
+
+	.nav__list a:hover,
+	.nav__list a:focus {
+		color: #4f3c73;
+	}
+
+	.nav__list li > ul {
+		position: absolute;
+		overflow: hidden;
+		transform: scaleY(0);
+		transition: all .3s linear;
+		transform-origin: 0 0 ;
+	}
+
+	.nav__list li:hover > ul,
+	.nav__list li:focus > ul {
+		position: relative;
+		transform: scaleY(1);
+		background-attachment: fixed;
+		background-color: #262343;
+	}
+
+	.nav__list li:hover > ul:hover,
+	.nav__list li:focus > ul:focus {
+		position: relative;
+		transform: scaleY(1);
+		background-attachment: fixed;
+		background-color: #120e32;;
+	}
+}
